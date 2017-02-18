@@ -1,0 +1,24 @@
+import mods.nei.NEI;
+
+NEI.hide(<ThermalDynamics:ThermalDynamics_0:*>);
+recipes.remove(<ThermalDynamics:ThermalDynamics_0:*>);
+NEI.hide(<ThermalDynamics:ThermalDynamics_16:*>);
+recipes.remove(<ThermalDynamics:ThermalDynamics_16:*>);
+NEI.hide(<ThermalDynamics:ThermalDynamics_32:*>);
+recipes.remove(<ThermalDynamics:ThermalDynamics_32:*>);
+NEI.hide(<BiblioCraft:item.SlottedBook>);
+recipes.remove(<BiblioCraft:item.SlottedBook>);
+NEI.hide(<Forestry:factory:7>);
+recipes.remove(<Forestry:factory:7>);
+NEI.hide(<JABBA:upgradeSide:1>);
+recipes.remove(<JABBA:upgradeSide:1>);
+NEI.hide(<OpenBlocks:craneBackpack>);
+recipes.remove(<OpenBlocks:craneBackpack>);
+NEI.hide(<OpenBlocks:generic:1>);
+recipes.remove(<OpenBlocks:generic:1>);
+NEI.hide(<OpenBlocks:generic:2>);
+recipes.remove(<OpenBlocks:generic:2>);
+NEI.hide(<OpenBlocks:generic:5>);
+recipes.remove(<OpenBlocks:generic:5>);
+NEI.hide(<EnderIO:blockVacuumChest>);
+recipes.remove(<EnderIO:blockVacuumChest>);

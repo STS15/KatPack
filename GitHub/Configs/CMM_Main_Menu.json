@@ -1,0 +1,148 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "resources:modpack:textures/katpack.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 64,
+            "height" : 64,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Solo Kat",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Multi Kat",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "website":
+        {
+            "text" : "Website",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://kookykraftmc.net/index.php"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "Settings",
+            "posX" : 2,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Return to Life",
+            "posX" : -100,
+            "posY" : 120,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 0,
+            "height" : 0,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Katpack created by STS15",
+            "posX" : -140,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "text" : "kat.kookykraftmc.net"
+        },
+        
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : false,
+            "animationSpeed" : 0,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}
