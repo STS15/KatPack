@@ -1,0 +1,198 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "modpack:textures/katpack.png",
+            "posX" : -135,
+            "posY" : 10,
+            "width" : 270,
+            "height" : 80,
+            "alignment" : "top_center"
+        }
+    },
+    
+ "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Solo Kat",
+            "hoverTextColor": 16753920,
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Multi Kat",
+            "hoverTextColor": 16753920,
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "website":
+        {
+            "text" : "KKMC Website",
+            "hoverTextColor": 16753920,
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://kookykraftmc.net/index.php"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "Settings",
+            "hoverTextColor": 16753920,
+            "posX" : 2,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Return to Life",
+            "hoverTextColor": 65280,
+            "tooltip": "No don't go!",
+            "posX" : -100,
+            "posY" : 120,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "tooltip" : "Change language",
+            "posX" : -122,
+            "posY" : 120,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+
+"discord": {
+            "text": "",
+            "normalTextColor": 6081343,
+            "hoverTextColor": 200000,
+            "tooltip": "Click to join our Discord",
+            "texture": "modpack:buttons/discord.png",
+            "posX" : -122,
+            "posY" : 72,
+            "width": 20,
+            "height": 20,
+            imageWidth: 300,
+            imageHeight: 300,
+            "action": {
+                "type": "openLink",
+                "link": "https://discord.gg/gXJcXAk"
+            }
+        },
+
+"Github": {
+            "text": "",
+            "normalTextColor": 6081343,
+            "hoverTextColor": 41704,
+            "tooltip": "Report any bugs here",
+            "texture": "modpack:Buttons/git.png",
+            "posX" : -122,
+            "posY": 96,
+            "width": 20,
+            "height": 20,
+            imageWidth: 300,
+            imageHeight: 300,
+            "action": {
+                "type": "openLink",
+                "link": "https://github.com/STS15/KatPack/issues"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 0,
+            "height" : 0,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {
+       "version":
+        {
+            "text" : "KatPack v1.11",
+            "posX" : 2,
+            "posY" : 2,
+            "color" : -1,
+            "alignment" : "top_left"
+        },
+
+        "creator":
+        {
+            "text" : "KatPack created by STS15",
+            "posX" : -135,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+         "url":
+        {
+            "text" : "Join the server at kat.kookykraftmc.net!",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {        
+        "panorama":
+        {
+            "images" : "modpack:textures/panorama.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : false
+        }
+    }
+}
